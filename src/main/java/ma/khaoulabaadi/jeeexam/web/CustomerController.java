@@ -1,7 +1,11 @@
 package ma.khaoulabaadi.jeeexam.web;
 
+import lombok.AllArgsConstructor;
 import ma.khaoulabaadi.jeeexam.dtos.CustomerDTO;
+import ma.khaoulabaadi.jeeexam.service.InsuranceService;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api")

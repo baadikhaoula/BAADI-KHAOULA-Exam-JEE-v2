@@ -7,6 +7,7 @@ import jakarta.persistence.Enumerated;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import ma.khaoulabaadi.jeeexam.enums.CoverageLevel;
 
 @Entity
 @DiscriminatorValue("HLTH")
